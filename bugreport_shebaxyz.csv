@@ -1,0 +1,20 @@
+Bug Reporting
+
+
+
+# SL 46
+
+Issue: Can not sign Up with Facebook
+
+Observed: User is not being to able sign up with facebook.
+Reproducing Steps:
+"1. Goto the URL
+https://www.sheba.xyz.
+2. Click on log in button at the left corner
+3. Click on 'Sign up with Facebook'"
+Environment: Production
+Module: Sign Up
+Severity: P1
+Screenshot: Facebook Sign up error
+Responsible QA: Sharika Tasnim Arshi
+Expected: User should able to sign up with facebook

@@ -1,0 +1,229 @@
+Product Name,,sheba.xyz,TC Start Date,3/4/2024,TC Execution Start Date,3/4/2024,,,,,TEST CASE,
+Module Name,,Sign Up and Sign In,TC End Date,4/4/2024,TC Execution End Date,4/4/2024,,,,,PASS,22
+Epic,,,Test Case Developed By,Sharika Tasnim Arshi,Browser (tested),Yes,,,,,FAIL,2
+Developer Name (TL),,,Test Case Reviewed By,,Performance (tested),Yes,,,,,Not Executed,0
+Test Executed by,,,,,,,,,,,Out of Scope,0
+,,,,,,,,,,,TOTAL,24
+#SL,Module,Type of Testing,Features,Test Cases,Exepected  Result,Actual Result,Test Data,"Reproducing
+Steps",Bug Screen Shot ,Dev Comments,Final Status,Remarks
+1,,"Browser 
+Compatibility Testing",,Checking by running the site in different browsers,Should run in different browsers,Found as per expectation,"Chrome 
+Internet Explorer Mozilla Firefox
+Microsoft Edge
+Opera Mini","1. Goto different browsers
+2. Search 'sheba.xyz'
+3. Goto the website",,,Passed,
+,,,,,,,,,,,,
+2,"User 
+Management",UI Testing,Sign Up,Checking spelling or grammatical mistakes,No spelling or grammatical mistakes,Found as per expectation,N/A,"1. Go to URL: https://www.sheba.xyz
+ 2.Click on Log in button at the right corner",,,Passed,
+3,,,,"Verifying the font, text color and style ",Should be as per the requirement,Found as per expectation,N/A,"1. Go to URL: http://www.sheba.xyz
+2.Click on Log in  button at the right corner
+3. Verify the font, text color and style",,,Passed,
+4,,,,Checking by hovering over the fields,A text should appear over the fields,Found as per expectation,N/A,"1. Go to URL: http://www.sheba.xyz
+2.Click on Log in  button at the right corner
+3. Hover over every fields",,,Passed,
+5,,,,Checking alignment of the fields,Proper alignment of the fields should be present,Found as per expectation,N/A,"1. Go to URL: http://www.sheba.xyz
+2.Click on Log in  button at the right corner
+3. Check alignment of the fields",,,Passed,
+,,,,,,,,,,,,
+6,,Functional Testing,,checking all the fields working properly after click,Should be as per the requirement,Found as per expectation,N/A,"1. Go to URL: http://www.sheba.xyz
+2.Click on Log in button at the right corner",,,,
+7,,,,Keeping mandatory fields blank,Should be as per the requirement,Sholud not allow user to register and pop an error message,N/A," 1. Go to URL: http://www.sheba.xyz
+2.Click on Log in button at the right corner",,,Passed,
+8,,,,Entering blank at first position in mobile number field,Should not accept the provided input,Found as per expectation,:  01761105584,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Input space at first position of mobile number field",,,Passed,
+9,,,,Entering blank at last position in mobile number field,Should not accept the provided input,found as per expectation,:01761105584 ,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Input space at last position of mobile number field",,,Passed,
+10,,,,Entering 12 digit  in mobile number field,Should not accept the provided input,found as per expectation,:017611055840,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Input 12 digit mobile number in mobile number field",,,Passed,
+11,,,,Entering invalid number  in mobile number field,Should not accept the provided input,found as per expectation,:01234567891,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Input invalid mobile number in mobile number field",,,Passed,
+12,,,,Entering space between digits in mobile field,Should not accept the provided input,Found as per expectation,:01 76 1 1 055 8 4,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Input space between digits in mobile number field",,,Passed,
+13,,,,Validating an mobile number can only be used one time,Should not allow user to sign in and  display a pop message,Found as per expectation with an error message,:01761105584,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Fill the mobile field with already registered mobile number",,,Passed,
+14,,,,Entering valid number  in mobile number field,Should accept the provided input,found as per expectation,:017611055840,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Fill the mobile field with valid mobile number",,,,
+15,,,,Validating an email id can only be used one time,Should not allow user to sign in and  display a pop message,Found as per expectation with an error message,ataeatae1995@gmail.com,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Fill the email address with already registered email",,,Passed,
+16,,,,Checking 4 digit confirmation code sent to the registered mobile number through message,Sent successfully,Found as per expectation,N/A,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Fill the mobile field with valid mobile number
+4.Click 'Continue' and create account
+5. Check confirmation code and type the code again in the code box
+6.click continue",,,Passed,
+17,,,,Checking 'Sign up with Facebook',Should allow user to sign up,Not Found as per expectation,Click on 'Sign up with Facebook',"1. Goto the URL
+https://www.sheba.xyz.
+2. Click on log in button at the left corner
+3. Click on 'Sign up with Facebook'",Facebook sign up,,Failed,
+18,,,,Checking 'Sign up with Google',Should allow user to sign up,Found as per expectation,Click on 'Sign up with Google',"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Click on 'Sign up with Google'",,,Passed,
+,,,,,,,,,,,,
+19,,Usability Testing,,Checking keyboard tab button functionality,Should switch to another field and highlight text,Functioning successfully,Enter tab in every field,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Enter tab in every field",,,Passed,
+20,,,,Checking keyboard enter button functionality,Should switch to another field ,Functioning successfully,Input Enter in every field,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Enter enter in every field",,,Passed,
+,,,,,,,,,,,,
+21,,"Functionality Testing
+",Sign In,Keeping mobile number field blank,Should not allow user to login and display an error messeage,Found as per expectation,N/A,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on login button at the left corner
+3. Keep the fields blank",,,Passed,
+22,,,,Checking login wrong credentials in mobile number field,Should not allow user to login and display an error messeage,Found as per expectation,:017611c055d84,"1. Goto the URL
+https://www.bdshop.sheba.xyz
+2. Click on login button at the left corner
+3. Input invalid credentials in mobile field",,,Passed,
+23,,,,Checking login valid credentials in mobile number field,Should allow user to log in,Found as per expectation,:01761105584,"1. Goto the URL
+https://www.bdshop.sheba.xyz
+2. Click on login button at the left corner
+3. Input valid credentials in mobile field",,,Passed,
+24,,,,Checking 4 digit confirmation code sent to the registered mobile number through message,sent successfully,Found as per expectation,N/A,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Fill the mobile field with valid mobile number
+4.Click 'Continue'
+5. Check confirmation code and type the code again in the code box
+6.click continue",,,Passed,
+,,,,checking log in with google,Should allow user to log in,Found as per expectation,N/A,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Click on 'Sign in with Google'",,,Passed,
+,,,,checking log in with facebook,Should allow user to log in,Not Found as per expectation,N/A,"1. Goto the URL
+https://www.sheba.xyz
+2. Click on log in button at the left corner
+3. Click on 'Sign in with facebook'",Facebook sign in,,Failed,
+,,,,,,,,,,,,
+,,,"Improvement 
+Scopes", Place 'Remember Me' checkbox below continue field,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,Negative test,,,,,,,,,,

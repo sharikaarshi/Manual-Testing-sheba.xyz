@@ -1,0 +1,14 @@
+Test Metrics,,,
+,,,
+#SL,Metrics,Description,Result (%)
+1,Percentage of Test Cases Executed,(No. of Test Cases Executed / Total no. of Test Cases Written) * 100,(24/24)*100 = 100
+2,Percentage of Test Cases Not Executed,(No. of Test Cases not Executed / Total no. of Test Cases Written) * 100,(0/24)*100 = 0
+3,Percentage of Test Cases Passed,(No. of Test Cases Passed / Total no. of Test Cases Executed) * 100,(22/24)*100 = 91.66
+4,Percentage of Test Cases Failed,(No. of Test Cases Failed / Total no. of Test Cases Executed) * 100,(2/24)*100 = 8.33
+5,Percentage of Test Cases Blocked,(No. of Test Cases Blocked / Total no. of Test Cases Executed) * 100,(0/24)*100 = 0
+6,Defect Density,No. of Defects found / Size (No. of Requirements),N/A
+7,Defect Removal Efficiency (DRE),(Fixed Defects / (Fixed Defects + Missed Defects)) * 100,N/A
+8,Defect Leakage,(No. of Defects found in UAT/ No. of Defects found in Testing) * 100,N/A
+9,Defect Rejection Ratio,(No. of Defects Rejected/ Total no. of Defects Raised) * 100,N/A
+10,Defect Age,Fixed date - Reported date,N/A
+11,Customer Satisfaction,No. of complaints per Period of Time,N/A

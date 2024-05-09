@@ -1,0 +1,60 @@
+Test Case Report,,,,,,,,
+   Project Name   ,sheba.xyz,,,,,,,
+Module Name   ,Sign Up and Sign In,,,,,,Total No. ,Status
+Test Case Version,,,,,,,22,PASS
+Written By,Sharika Tasnim Arshi,,,,,,2,FAIL
+Executed By,Sharika Tasnim Arshi,,,,,,0,Not Executed
+Reviewed By,,,,,,,0,Out of Scope
+TEST EXECUTION REPORT,,,,,,,,
+,,,,,,,,
+Test Case,PASS,FAIL,Not Executed,Out Of Scope,Total TC,,,
+,22,2,0,0,24,,,
+Grand Total  ,22,2,0,0,24,,,
+,,,,,,,,
+,,,,,,,,
+LIMITATIONS,,,,,,,,
+Documents,,,,Received ,Useful,,,
+PRD,,,,No,No,,,
+USER STORY,,,,No,No,,,
+,,,,,,,,
+,"Testing Type
+in Scope",Description,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Functional Testing,This type of testing ignores the internal parts and focuses only on the output to check if it is as per the requirement or not.,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Integration Testing,Testing of all integrated modules to verify the combined functionality after integration is termed as Integration Testing.,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Negative Testing,Testing having the mindset of ���attitude to break��� using incorrect data and,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Usability Testing,Test application from user friendliness perspective.,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Browser Compatibility Testing,Browser Compatibility Testing is performed for web applications and it ensures that the software can run with the combination of different browser and operating system. This type of testing also validates whether web application runs on all versions of all browsers or not.,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):",Boundary Value Testing,There is an upper and lower boundary for each range and testing is performed on these boundary values.,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"Yes/ No.
+Justification (If No):","Risk Based Testing
+Or
+Regression Testing","Risk-Based Testing includes testing of highly critical functionality, which has the highest impact on business and in which the probability of failure is very high.
+
+Testing an application as a whole for the modification in any module or functionality is termed as Regression Testing.",,,,,,
